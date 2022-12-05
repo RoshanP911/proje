@@ -1,0 +1,374 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    height: 60px;
+    margin: 0;  
+    display: flex;
+}
+
+.Globallogo{
+    padding-left: 70px;
+}
+
+.Globallogotext{
+     color: rgb(255, 255, 255);
+     font-size: 25px;
+     text-decoration: none;
+}
+
+.navbarleft{
+    width: 50%;
+    background: transparent;
+    height: 60px;
+}
+
+.navbarright{
+    display: flex;
+    width: 50%;
+    background: transparent;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 15px 100px;
+}
+
+.Premium:hover { 
+	color: #1ed760;
+}
+
+.Support:hover { 
+	color: #1ed760;
+}
+.Premium:hover { 
+	color: #1ed760;
+}
+
+.Download:hover { 
+	color: #1ed760;
+}
+.bar:hover { 
+	color: #1ed760;
+}
+
+.Signup:hover{
+    color: #1ed760;
+}
+
+.Login:hover{
+    color: #1ed760;
+}
+
+
+.bubbles{
+    height: 600px;
+    width: 100%;
+    background: rgb(210, 33, 204);
+    background: linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+}
+
+.body1{
+    width: 100%;
+    height: 0px;
+}
+.iphoneside{
+    width: 300px;
+    height: 465px;
+    background-color: aquamarine;
+    position: relative;
+    top: -465px;
+    left: 150px;
+}
+
+
+.iphoneside img{
+    height: 465px;
+    width: 300px;
+
+}
+
+.iphonespotifymenu{
+    height: 20px;
+    width: 250px;
+    position: relative;
+    top: -40px;
+}
+.million{
+    width: 600px;
+    height: 200px;
+    position: relative;
+    top: -900px;
+    left: 550px;
+    color: white;
+    font-size: 24px;
+    background: transparent;
+}
+
+.spotifyfree{
+    height:50px;
+    width:170px;
+        background-color: #ffffff; 
+        border: none;
+        color: rgb(0, 0, 0);
+        border-radius: 25px;
+}
+
+.body2{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+} 
+
+
+.WhySpotify{
+    font-size: 40px;
+    text-align: center;
+}
+
+.whyspotifybox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.play{
+height:300px;
+width: 200px;
+}
+
+.playlists{
+    height:300px;
+    width: 200px;
+}
+
+.make{
+    height:300px;
+    width: 200px;
+}
+
+.save{
+    height:300px;
+    width: 200px;
+}
+
+.whyspotifyboxheading{
+    color: black;
+    text-align: center;
+    font-size: 19px;
+}
+
+
+
+.playimage{
+    padding-left: 28px;
+    height:142px;
+    width: 142px;
+}
+
+.playlistsimage{
+    padding-left: 28px;
+    height:142px;
+    width: 142px;
+}
+
+.makeimage{
+    padding-left: 28px;
+    height:142px;
+    width: 142px;
+}
+
+
+.whyspotifyboxtext{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.nocreditcard{
+    text-align: center;
+    width: 100%;
+    height: 470px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    font-size: 45px;
+    color: #ffffff;
+}
+
+
+.gotquestions{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.gotquestionsheading{
+    text-align: center;
+    font-size:35px;
+}
+
+.faq{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 100px;
+}
+
+.ready{
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    font-size: 45px;
+    color: #ffffff;
+}
+
+
+.readytext{
+    position: relative;
+    top: -300px;
+    font-size: 80px;
+}
+
+.spotifyfreebottom{
+    height:50px;
+    width:170px;
+        background-color: #ffffff; 
+        border: none;
+        color: rgb(0, 0, 0);
+        border-radius: 25px;
+        position: relative;
+        top: -270px;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 500px;  
+}
+
+.footertop{
+    display: flex;
+    justify-content: space-around;  
+}
+
+.footertopheadings{
+    color: #878792;
+    line-height: 1.18182;
+    font-size: 12px;
+    font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+     
+}
+
+
+.spotifyfooterlogo{
+    color: rgb(255, 255, 255);
+}
+
+
+.COMPANY{
+    height:150px;
+    width: 250px;
+    background-color:rgb(0, 0, 0);
+    color: #ffffff;
+    padding-left: 15px;
+    line-height: 1.6;
+    font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+}
+
+.COMMUNITIES{
+    height:150px;
+    width:200px;
+    background-color: rgb(0, 0, 0);
+    color: #e4e7eb;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 2.2;
+    font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+  
+}
+
+
+.USEFULLINKS{
+    height:150px;
+    width:200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 -10px;
+    color: #e4e7eb;
+    padding-left: 15px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 2.2;
+    font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+
+}
+
+.socialmedia{
+    height:150px;
+    width:200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 -10px;
+    color: #e4e7eb;
+    padding-left: 15px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 2.2;
+    font-family: SST W01 Roman,sans-serif,Helvetica Neue,Helvetica,Arial;
+
+}
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* .socialmedia fa{
+    font-size: 20px;
+    width:10px;
+    display: inline-block;
+    text-align:end;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #878792;
+  }
+   */
+  
+
+   .socialmedia{
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   .fa-instagram {
+    /* background-color: #222326; */
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    /* border-radius: 10%; */
+    
+  }
+
+
+
+  .footerbottominline li{
+    display: inline-block;
+    padding: 20px;
+    color: #919496;
+    font-size: 10px;
+  }
+  .region{
+    color: #919496;
+    font-size: 10px;
+    margin-left: 1100px; 
+  }
+  
